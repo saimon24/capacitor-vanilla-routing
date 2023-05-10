@@ -1,0 +1,11 @@
+{
+  "appId": "com.galaxies.routing",
+  "appName": "my-routing-app",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
