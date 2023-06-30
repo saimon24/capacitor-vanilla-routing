@@ -4,7 +4,7 @@ import { App } from "@capacitor/app";
 const router = new Navigo("/");
 const body = document.querySelector("body");
 
-const render = (content) => (document.querySelector("#content").innerHTML = content);
+const render = (content) => (document.querySelector("#page_container").innerHTML = content);
 
 router
   .on("/", (match) => {

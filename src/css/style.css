@@ -47,3 +47,7 @@
   height: env(safe-area-inset-top);
   @apply bg-blue-600;
 }
+
+.page-footer {
+  @apply border-t border-gray-200 w-full fixed bottom-0;
+}
